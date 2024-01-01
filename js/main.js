@@ -7,6 +7,7 @@ var loginUserPassword = document.getElementById("loginUserPassword");
 var checkMessage = document.getElementById("checkMessage");
 var checkMessage2 = document.getElementById("checkMessage2");
 var welcomeMessage = document.getElementById("welcomeMessage");
+var passHint = document.getElementById("passHint");
 var nameRegex = /^[A-Za-z]{3}/;
 var emailRegex = /[A-Za-z]{1,10}(\.)?[A-Za-z]{0,10}([0-9]{1,6})?@[a-z]{2,6}\.[a-z]{2,6}/;
 var passwordRegex = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_+=-]).{8,}/;
@@ -152,5 +153,11 @@ function loginUserPasswordValidation(password){
         loginUserPassword.classList.add("is-invalid");
         return false;
     }
+}
+function passwordHint(){
+    passHint.innerHTML = `<button onclick="hidePassHint()"><i class="fa-solid fa-circle-info"></i></button> Password shoud be 8 characters including at least one uppercase letter, one number and one special character.`
+}
+function hidePassHint(){
+    passHint.innerHTML = `<button onclick="passwordHint()"><i class="fa-solid fa-circle-info"></i></button> Password Hint.`
 }
 

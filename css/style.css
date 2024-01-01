@@ -69,6 +69,13 @@ a{
     text-decoration: none;
     color: white;
 }
+.pbi button{
+    background-color: transparent;
+    border: none;
+}
+i{
+    width: 100%;
+}
 .btn-outline-movvv {
     --bs-btn-color: #fff;
     --bs-btn-border-color: #fff;

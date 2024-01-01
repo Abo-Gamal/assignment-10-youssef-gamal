@@ -27,7 +27,8 @@
                     <input oninput="signupUserNameValidation(this.value)" type="text" id="signupUserName" placeholder="Enter Your Name" class=" form-control mt-4">
                     <input oninput="signupUserEmailValidation(this.value)" type="email" id="signupUserEmail" placeholder="Enter Your Email" class=" form-control mt-2">
                     <input oninput="signupUserPasswordValidation(this.value)" type="password" id="signupUserPassword" placeholder="Enter Your Password" class=" form-control mt-2">
-                    <button onclick="createUser()" class=" btn btn-outline-movvv form-control mt-4" type="submit"> SignUp</button>
+                    <p id="passHint" class="mt-3 ms-3 pbi"><button onclick="passwordHint()"><i class="fa-solid fa-circle-info"></i></button> Password Hint.</p>
+                    <button onclick="createUser()" class=" btn btn-outline-movvv form-control mt-2" type="submit"> SignUp</button>
                     <p class="text-center mt-3">You have an account? <a href="../index.html"><span>SignIn</span></a></p>
                     <h3 id="checkMessage" class=" text-center d-none mt-4"></h3>
                 </div>
