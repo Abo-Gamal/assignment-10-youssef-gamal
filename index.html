@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Smart Login System</title>
+    </head>
+    <body>
+        
+        <div class="login-main-bg w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="login w-75 d-flex justify-content-center align-items-center">
+                <div class="login-context w-75">
+                    <h1 class=" text-capitalize text-center mt-4">smart login system</h1>
+                    <input oninput="loginUserEmailValidation(this.value)" type="email" id="loginUserEmail" placeholder="Enter Your Email" class=" form-control mt-4">
+                    <input oninput="loginUserPasswordValidation(this.value)" type="password" id="loginUserPassword" placeholder="Enter Your Password" class=" form-control mt-2">
+                    <button onclick="login()" class=" btn btn-outline-movvv form-control mt-4" type="submit"> Login</button>
+                    <p class="text-center mt-3">Do not have an account? <a href="html/SignUp.html"><span>SignUp</span></a></p>
+                    <h4 id="checkMessage2" class=" text-center d-none mt-4"></h4>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

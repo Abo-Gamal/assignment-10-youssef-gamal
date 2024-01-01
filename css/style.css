@@ -1,0 +1,103 @@
+
+.login-main-bg{
+    background-color: #BDB5D5;
+}
+.login-context h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-context h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-context p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-context button{
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+}
+.login{
+    background-color: #BDB5D5;
+    box-shadow: -1px 1px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.signup{
+    background-color: #BDB5D5;
+    box-shadow: -1px 1px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.signup-context h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.signup-context h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.signup-context p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.signup-context button{
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-main-bg{
+    background-color: #BDB5D5;
+}
+.home{
+    background-color: #fff;
+    box-shadow: -1px 1px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+.home h1{
+    color: #BDB5D5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-nav{
+    background-color: #fff;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+}
+.home-nav h2{
+    color: #BDB5D5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-nav button{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn-outline-movvv {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #fff;
+    --bs-gradient: none;
+}
+.btn-outline-movv {
+    --bs-btn-color: #BDB5D5;
+    --bs-btn-border-color: #BDB5D5;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #BDB5D5;
+    --bs-btn-hover-border-color: #BDB5D5;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #BDB5D5;
+    --bs-btn-active-border-color: #BDB5D5;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #BDB5D5;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #BDB5D5;
+    --bs-gradient: none;
+}
